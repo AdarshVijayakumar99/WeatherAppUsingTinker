@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox 
 def tell_weather() : 
 	import requests, json 
-	api_key = "464c8f3a4bb7228af252a83330327472"
+	api_key = "api_key"
 	base_url = "http://api.openweathermap.org/data/2.5/weather?"
 	city_name = city_field.get() 
 	complete_url = base_url + "appid =" + api_key + "&q =" + city_name 
